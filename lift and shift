@@ -12,3 +12,21 @@ Erreurs de communication : si les ports sont mal configurés, cela peut entraîn
 Sécurité : si les ports de connexion sont mal configurés, cela peut créer des vulnérabilités de sécurité, notamment des ports ouverts non nécessaires, des ports utilisant des protocoles non sécurisés, ou des ports qui permettent l'accès à des services non autorisés.
 
 Pour éviter ces problèmes, il est important de vérifier la configuration du port de connexion avant la migration. Il est également important de documenter les ports utilisés par chaque application et de s'assurer que les ports sont correctement configurés dans le nouvel environnement. Les tests de connectivité doivent être effectués après la migration pour s'assurer que les applications communiquent correctement et que les ports sont correct
+
+MGN (Migration Hub & CloudEndure Migration) est un service AWS (Amazon Web Services) qui permet de migrer des charges de travail sur le cloud AWS en utilisant une approche de "lift and shift". Cette méthode implique de transférer les applications existantes telles quelles sur AWS, sans les modifier.
+
+Les coûts de la migration "lift and shift" avec MGN peuvent varier en fonction de plusieurs facteurs, notamment:
+
+La taille et la complexité de votre charge de travail - plus la charge de travail est grande et complexe, plus la migration sera coûteuse.
+
+Le nombre de serveurs et d'applications à migrer - plus il y a de serveurs et d'applications à migrer, plus la migration sera coûteuse.
+
+Le temps nécessaire pour migrer votre charge de travail - plus le temps de migration est long, plus les coûts seront élevés.
+
+La bande passante nécessaire pour transférer les données - plus la bande passante nécessaire est grande, plus les coûts seront élevés.
+
+Les frais de licence de MGN et les frais de cloud AWS associés - MGN est un service payant et les coûts associés à l'utilisation du cloud AWS dépendent de la quantité de ressources utilisées.
+
+En général, les coûts de la migration "lift and shift" avec MGN comprennent les frais d'utilisation de MGN et les frais de cloud AWS associés à l'infrastructure utilisée pour héberger votre charge de travail. Il est recommandé de consulter le calculateur de coûts d'AWS pour estimer les coûts associés à votre migration spécifique.
+
+
